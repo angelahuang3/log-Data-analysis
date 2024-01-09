@@ -44,10 +44,10 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.5.jar \
 
 ## PA3: Word Count (**Apache Spark**) + NASA log data analytics(**PySpark + Kafka + DBFS(Databricks) + HDFS**)
 
-## Part 1
+**Part 1**
 **Determine 100 most frequent/repeated words in the 16GB dataset**
 
-### How to run it
+**How to run it**
 1. run at local
 ```python
 python3 wc_spark.py
@@ -58,14 +58,14 @@ python3 wc_spark.py
 spark-submit --master local wc_spark.py
 ```
 
-## Part 2
-### Section 1
+**Part 2**
+**Section 1**
 **Solving and getting familiar with log analytics.**
 
 1. Run section1.py file to get the freq day of the week and least year for the data
 
-### Section 2
-#### Basic
+**Section 2**
+**Basic**
 1. run Kafka and ZooKeeper
 *make sure to get into Kafka file location*
 
@@ -97,7 +97,7 @@ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server local
 ```bash
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
 ```
-#### How to run
+**HHow to run**
 1. Run Kafka & Zookeeper
 2. Create topic
 3. Run kafka_producer.py to input the data into topic
