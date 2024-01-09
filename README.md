@@ -18,7 +18,7 @@ In this assignment, we are going to find the top k frequent word in the big data
 ## PA2: Word Count (**Python + Hadoop MapReduce**)
 Finding top 100 words using mapreduce
 
-## How to run it
+**How to run it**
 1. some simple command line for hdfs
 ```bash
 hadoop fs -mkdir [-p] <hadoop_location>
@@ -42,6 +42,6 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.5.jar \
  hadoop dfs -cat <hadoop_output>/part-00000   
 ```
 
-PA3: Word Count (**Apache Spark**) + NASA log data analytics(**PySpark + Kafka + DBFS(Databricks) + HDFS**)
+## PA3: Word Count (**Apache Spark**) + NASA log data analytics(**PySpark + Kafka + DBFS(Databricks) + HDFS**)
 
 **All include code and project analysis report
