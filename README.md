@@ -97,7 +97,7 @@ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server local
 ```bash
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
 ```
-**HHow to run**
+**How to run**
 1. Run Kafka & Zookeeper
 2. Create topic
 3. Run kafka_producer.py to input the data into topic
